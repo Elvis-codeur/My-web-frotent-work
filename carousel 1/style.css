@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("./assets/nadot-yannick-9buASkllk4s-unsplash.jpg");
+    background-size: cover;
+}
+
+#carrousel{
+    width: 800px;
+    height: 400px;
+    border: solid 4px #FFF;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+#container {
+
+    width: 800px;
+    height: 400px;
+}
+.bouton {
+    position:absolute;
+    width: 70px;
+    cursor: pointer;
+    top: 150px;
+}
+#d {
+    transform: translate(700px) translateY(-250px);
+}
+#g {
+    transform: translateY(-250px);
+}
+
+.photo {
+    width: 800px;
+    height: 400px;
+    margin: 0;
+    display: inline-block;
+    background-size: cover;
+}
